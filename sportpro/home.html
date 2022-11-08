@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<body><style>
+.button {
+  display: inline-block;
+  border-radius: 4px;
+  background-color: #f4511e;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 28px;
+  padding: 20px;
+  width: 200px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+</style>
+
+	</body>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="css/style.css">
+<header>
+<img src="http://vectorlogofree.com/wp-content/uploads/2013/01/canadian-olympic-team-logo-vector-400x400.png" width="100px" height="80px">
+<h1 class="liketext">Sports Fever</h1>
+</header>
+<br><br><br><br><br><br><br>
+<div class="row">
+	<center>
+
+<a href="/sportpro/admin"><button class="button" style="vertical-align:middle"><span>Admin </span></button></a>
+<a href="/sportpro/student"><button class="button" style="vertical-align:middle"><span>Student </span></button></a>
+			
+		</center></div>
+
+<br><br><br><br><br><br><br><br>
+		<center>
+<h3 style="color:#6880a8">&ldquo;The will to win is not really so important as the will to prepare to win&rdquo; </h3>
+</center>
+<footer>
+  <p>If something stands between you and your success, move it..!</p>
+</footer>
+
+</body>
+</html>
